@@ -1,3 +1,3 @@
 # Face-Anti-Spoofing
-Противодействие атакам спуфинга в лицевой биометрии с использованием карт глубины и дистанционного ФПГ сигнала(http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf). Обучение проходило на датасете SIW(http://cvlab.cse.msu.edu/siw-spoof-in-the-wild-database.html), размер фотографий 128x128. Результаты APCER = 0.046357
+Противодействие атакам спуфинга в лицевой биометрии с использованием карт глубины и дистанционного ФПГ сигнала(http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf). Для получения ground truth ФПГ сигнала был построен алгоритм, основанный на статье Robust pulse-rate from chrominance-based rPPG,Gerard de Haan и Vincent Jeanne (http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.726.6643&rep=rep1&type=pdf). Обучение проходило на датасете SIW(http://cvlab.cse.msu.edu/siw-spoof-in-the-wild-database.html), размер фотографий 128x128. Результаты APCER = 0.046357
 NPCER = 0.121621 ACER = 0.083989
